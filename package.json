@@ -1,12 +1,13 @@
 {
-  "name": "javascript-react-patterns",
+  "name": "blog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next",
     "start": "next start",
     "build": "next build ",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vc"
   },
   "dependencies": {
     "@heroicons/react": "1.0.5",

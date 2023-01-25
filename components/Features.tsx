@@ -2,24 +2,62 @@ import {
   LightningBoltIcon,
   PuzzleIcon,
   CogIcon,
+  DocumentIcon,
+  CodeIcon,
+  DocumentTextIcon,
+  TruckIcon,
+  BeakerIcon,
+  ChartBarIcon,
+  LightBulbIcon,
+  GlobeAltIcon,
+  ServerIcon,
+  ChartSquareBarIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Design Patterns",
-    icon: PuzzleIcon,
+    name: "Requirements Gathering",
+    icon: DocumentTextIcon,
   },
   {
-    name: " React Patterns",
-    icon: () => <img src="/react.svg" height="24" width="24" />,
+    name: "Design",
+    icon: ServerIcon,
   },
   {
-    name: "Rendering Patterns",
-    icon: CogIcon,
+    name: "Coding",
+    icon: CodeIcon,
   },
   {
-    name: "Performance Patterns",
+    name: "Logging",
+    icon: ChartSquareBarIcon,
+  },
+  {
+    name: "Localization",
+    icon: GlobeAltIcon,
+  },
+  {
+    name: "Accessibility",
     icon: LightningBoltIcon,
+  },
+  {
+    name: "Testing",
+    icon: LightBulbIcon,
+  },
+  {
+    name: "Telemetry and Monitoring",
+    icon: ChartBarIcon,
+  },
+  {
+    name: "Performance and Optimization",
+    icon: BeakerIcon,
+  },
+  {
+    name: "Deployment",
+    icon: TruckIcon,
+  },
+  {
+    name: "Documentation",
+    icon: DocumentIcon,
   },
 ];
 

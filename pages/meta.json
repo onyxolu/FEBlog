@@ -9,7 +9,7 @@
       "layout": "raw"
     }
   },
-  "patterns": {
-    "title": "All Patterns"
+  "frontend": {
+    "title": "Frontend"
   }
 }
