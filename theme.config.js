@@ -44,16 +44,16 @@ const theme = {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="description"
-          content="Website created for the FrontendMasters course on JavaScript Patterns by Lydia Hallie"
+          content="ebsite about building scalable and high performant Frontend Solutions"
         />
         <meta
           name="description"
-          content="Website for the FrontendMasters course on JavaScript Patterns by Lydia Hallie"
+          content="ebsite about building scalable and high performant Frontend Solutions"
         />
-        <meta name="author" content="Lydia Hallie" />
+        <meta name="author" content="Olumide Ogundare" />
         <meta
           property="og:url"
-          content="https://blog-701q6kypq-onyxolu.vercel.app/frontend"
+          content="https://olumide.dev/frontend"
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
@@ -61,19 +61,19 @@ const theme = {
         <meta property="og:image:height" content="692" />
         <meta
           property="og:title"
-          content={`${props.title} | JavaScript Patterns`}
+          content={`${props.title} | Frontend Blog`}
         />
         <meta
           property="og:description"
-          content="Website created for the FrontendMasters course on JavaScript Patterns by Lydia Hallie"
+          content="Website about building scalable and high performant Frontend Solutions"
         />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://blog-701q6kypq-onyxolu.vercel.app/ogimage1.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
+        /> */}
+        {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@lydiahallie" />
-        <meta name="twitter:creator" content="@lydiahallie" />
+        <meta name="twitter:creator" content="@lydiahallie" /> */}
       </>
     );
   },
