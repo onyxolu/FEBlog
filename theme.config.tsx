@@ -1,12 +1,10 @@
-const theme = {
-  titleSuffix: " | Frontend Simplified",
-  search: true,
-  unstable_flexsearch: true,
-  unstable_staticImage: true,
-  floatTOC: true,
-  font: false,
-  github: "hhttps://github.com/onyxolu/FEBlog",
-  projectLink: "https://github.com/onyxolu/FEBlog",
+import React from 'react'
+import { DocsThemeConfig } from 'nextra-theme-docs'
+
+const theme: DocsThemeConfig = {
+  project: {
+    link: "https://github.com/onyxolu/FEBlog"
+  },
   logo: () => (
     <>
       <img
@@ -16,7 +14,7 @@ const theme = {
         style={{ marginRight: "1em" }}
       />
       <h1>
-        Frontend Simplified <span style={{ opacity: 0.2 }}></span>
+        Scalable UI <span style={{ opacity: 0.2 }}></span>
       </h1>
     </>
   ),
@@ -44,11 +42,7 @@ const theme = {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="description"
-          content="ebsite about building scalable and high performant Frontend Solutions"
-        />
-        <meta
-          name="description"
-          content="ebsite about building scalable and high performant Frontend Solutions"
+          content="Website about building scalable and high performant Frontend Solutions"
         />
         <meta name="author" content="Olumide Ogundare" />
         <meta
@@ -78,7 +72,9 @@ const theme = {
     );
   },
   darkMode: true,
-  footerText: `${new Date().getFullYear()} © Olumide Ogundare`,
+  footer: {
+    text: `${new Date().getFullYear()} © Olumide Ogundare`,
+  },
   nextThemes: {
     defaultTheme: "dark",
   },
