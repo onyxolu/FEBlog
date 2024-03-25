@@ -6,10 +6,10 @@ import "../custom.css";
 import { SSRProvider } from "@react-aria/ssr";
 
 // Shim requestIdleCallback in Safarigit add 
-if (typeof window !== "undefined" && !("requestIdleCallback" in window)) {
-  window.requestIdleCallback = (fn) => setTimeout(fn, 1);
-  window.cancelIdleCallback = (e) => clearTimeout(e);
-}
+// if (typeof window !== "undefined" && !("requestIdleCallback" in window)) {
+//   window.requestIdleCallback = (fn) => setTimeout(fn, 1);
+//   window.cancelIdleCallback = (e) => clearTimeout(e);
+// }
 
 export default function Nextra({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
