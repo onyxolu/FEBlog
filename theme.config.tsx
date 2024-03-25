@@ -61,6 +61,7 @@ const theme: DocsThemeConfig = {
           property="og:description"
           content="Website about building scalable and high performant Frontend Solutions"
         />
+        
         {/* <meta
           property="og:image"
           content="https://blog-701q6kypq-onyxolu.vercel.app/ogimage1.png"
