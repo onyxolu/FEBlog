@@ -18,7 +18,7 @@ const theme: DocsThemeConfig = {
       </h1>
     </>
   ),
-  head: function Head(props) {
+  head: function Head(props: any) {
     return (
       <>
         <meta charSet="utf-8" />
