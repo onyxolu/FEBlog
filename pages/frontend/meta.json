@@ -1,14 +1,3 @@
 {
-  "index": "Introduction",
-  "requirements-gathering": "📝 ⏐ Requirements Gathering",
-  "design": "🍥 ⏐ Design",
-  "coding": "👨🏿‍💻 ⏐ Coding",
-  "logging": "💹 ⏐ Logging",
-  "localization": "🌎 ⏐ Localization",
-  "accessibility": "♿️ ⏐ Accessibility",
-  "testing": "🧪 ⏐ Testing",
-  "telemetry-and-monitoring": "📊 ⏐ Telemetry and Monitoring",
-  "performance-and-optimization": "📉 ⏐ Performance and Optimization",
-  "deployment": "🚀 ⏐ Deployment",
-  "documentation": "📄 ⏐ Documentation"
+  "index": "Introduction"
 }

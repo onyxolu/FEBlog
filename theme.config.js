@@ -1,5 +1,5 @@
 const theme = {
-  titleSuffix: " | FE Blog",
+  titleSuffix: " | Frontend Simplified",
   search: true,
   unstable_flexsearch: true,
   unstable_staticImage: true,
@@ -16,7 +16,7 @@ const theme = {
         style={{ marginRight: "1em" }}
       />
       <h1>
-        FE Blog <span style={{ opacity: 0.2 }}></span>
+        Frontend Simplified <span style={{ opacity: 0.2 }}></span>
       </h1>
     </>
   ),
